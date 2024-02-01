@@ -1,0 +1,31 @@
+
+body {
+    background-color: #E0FCDC;
+    margin: 0 10%;
+    font-family: sans-serif;
+}
+header {
+    text-align: center;
+    
+
+}
+.banner {
+    max-width:400px;
+    margin: 0 auto;
+    color: black;
+}
+
+h1 {
+    color: #b;
+    font-size: 4em;
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #57b1dc;
+    margin-top: 30px;
+}
+h2 {
+    color: #b;
+    font-size: 2em;
+}
