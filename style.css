@@ -15,12 +15,12 @@ body {
     nav {
       display: flex;
       justify-content: space-around;
-      background-color: #555;
+      background-color: #E8EFEB;
       padding: 10px;
     }
 
     nav a {
-      color: #fff;
+      color: #r;
       text-decoration: none;
 
 }
