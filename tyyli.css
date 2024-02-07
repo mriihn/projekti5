@@ -14,7 +14,7 @@ header {
 .banner {
     max-width: 800px;
     margin: 0 auto;
-    color: #b;
+    color: #000000;
 }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
 
 span {
     display:
-    font-size: 1.4em;
+    font-size;
 }
 
 nav {
@@ -47,17 +47,17 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #b ;
+    color: #000000 ;
     font-weight: bold;
 }
 
 h2 {
-    color: #b;
+    color: #000000;
     font-size: 2em;
     text-align: center;
 }
 
 p {
-    color: #b;
-    text-align;
+    color: #000000;
+    text-align: center;
 }
