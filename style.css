@@ -38,4 +38,11 @@ h1 {
 h2 {
     color: #b;
     font-size: 2em;
+    font-family: courier new;
+    text-align: center;
+    
 }
+image {
+    max-width: 100%;
+    display: inline-block;
+    
