@@ -55,3 +55,8 @@ h2 {
     display: inline-block;
     text-align: center;
 }
+
+section ul li{
+    list-style-type: none;
+    padding: 0;
+}
