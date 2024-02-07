@@ -5,6 +5,12 @@ body {
     font-family: sans-serif;
     text-align: center;
   }
+p {
+    color: #b;
+    font-size: 2em;
+    font-family: courier new;
+    text-align: center;
+}
 
     header {
       background-color: #333;
@@ -17,7 +23,7 @@ body {
       display: flex;
       justify-content: space-around;
       background-color: #D0F9E4;
-      padding: 10px;
+      padding: 10px 0;
     }
 
     nav a {
@@ -33,7 +39,7 @@ h1 {
     font-family: serif;
     font-weight: normal;
     text-transform: uppercase;
-    border-bottom: 1px solid #57b1dc;
+    border-bottom: 1px solid #b;
     margin-top: 30px;
 }
 h2 {
