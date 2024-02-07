@@ -22,12 +22,12 @@ p {
     nav {
       display: flex;
       justify-content: space-around;
-      background-color: #D0F9E4;
+      background-color: #DCDCDC;
       padding: 10px 0;
     }
 
     nav a {
-      color: #2a52be;
+      color: #black;
       text-decoration: none;
 
 }
@@ -50,8 +50,8 @@ h2 {
     
 }
 .center-image {
-    max-width: 5%;
-    height: 100px;
+    max-width: 10%;
+    height: auto;
     display: inline-block;
     text-align: center;
 }
