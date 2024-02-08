@@ -6,7 +6,7 @@ body {
     text-align: center;
   }
 p {
-    color: #b;
+    color: #000000;
     font-size: 2em;
     font-family: courier new;
     text-align: center;
@@ -27,7 +27,7 @@ p {
     }
 
     nav a {
-      color: #black;
+      color: #000000;
       text-decoration: none;
 
 }
@@ -39,7 +39,7 @@ h1 {
     font-family: serif;
     font-weight: normal;
     text-transform: uppercase;
-    border-bottom: 1px solid #b;
+    border-bottom: 1px solid #000000;
     margin-top: 30px;
 }
 h2 {
