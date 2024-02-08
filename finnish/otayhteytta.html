@@ -10,7 +10,15 @@
     <header>
         <h1>Palautelomake</h1>
     </header>
-
+    
+<nav>
+  <a href="index.html">Etusivu</a>
+  <a href="tilaaminen.html">Tilaaminen</a>
+  <!--<a href="valikoima.html">Valikoima</a>-->
+<a href="otayhteyttä.html">Ota yhteyttä</a>
+<a href="../english/feedback.html">In English</a>
+</nav>
+    
     <section class="feedback" id="feedbackSection">
         <h2>Anna palautetta</h2>
         <form id="feedbackForm" onsubmit="submitFeedback(event)">
@@ -28,13 +36,18 @@
 
     <section class="contact">
         <h2>Yhteystiedot</h2>
-        <p>Minni Kautonen - minni.kautonen@edu.turkuamk.fi</p>
-        <p>Viivi Kalliolepo - viivi.kalliolepo@edu.turkuamk.fi</p>
-        <p>Meri Riihinen - meri.riihinen@edu.turkuamk.fi</p>
-        <p>Teemu Uusi-Eskola - teemu.uusi-eskola@edu.turkuamk.fi</p>
-        <p>Eetu Törmänen - eetu.tormanen@edu.turkuamk.fi</p>
+        <p>Minni Kautonen - minni.kautonen@example.com</p>
+        <p>Viivi Kalliolepo - viivi.kalliolepo@example.com</p>
+        <p>Meri Riihinen - meri.riihinen@example.com</p>
+        <p>Teemu Uusi-Eskola - teemu.uusi-eskola@example.com</p>
+        <p>Eetu Törmänen - eetu.tormanen@example.com</p>
     </section>
-
-    <script src="script.js"></script>
+    <script>
+        function submitFeedback(event) {
+            event.preventDefault();
+            document.getElementById("feedbackForm").style.display = "none";
+            document.getElementById("thankYouMessage").style.display = "block";
+        }
+    </script>
 </body>
 </html>
