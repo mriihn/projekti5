@@ -71,3 +71,23 @@ section ul li{
         align-items: center; 
     }
 }
+
+body {
+    text-align: center;
+}
+
+header {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px; /* Ota huomioon sivun leveys */
+}
+
+p {
+    text-align: center;
+}
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+}
+
