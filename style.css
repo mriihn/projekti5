@@ -71,47 +71,6 @@ section ul li{
     font-family: courier new;
     text-align: center;
 
-.container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.contact-from, .yhteystiedot {
-    background-color: #DCDCDC;
-    padding: 20px;
-    text-align: left;
-    width: 45%; /* Asetetaan boksien leveys */
-    box-sizing: border-box; /* Estetään paddingin lisäys boksin kokoon */
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    margin-bottom: 5px;
-}
-
-input, textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 100%; /* Täyttää boksin leveyden */
-}
-
-button {
-    background-color: #47DE80;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-    border: none;
-    width: 100%; /* Täyttää boksin leveyden */
-}
-
-#thankYouMessage {
-    color: #47DE80;
-    font-size: 1.5em;
-}
 
 @media only screen and (max-width: 600px) {
     body {
