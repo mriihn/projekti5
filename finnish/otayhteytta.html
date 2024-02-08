@@ -1,43 +1,40 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>HäviExpress palautekysely</title>
-    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Palautelomake</title>
 </head>
 <body>
     <header>
-	    <img src="../häviexpress.png" alt="HäviExpressLogo" class="center-image">
-        <div class="banner">
-            <h1>HäviExpress</h1>
-
-		
-<nav>
-  <a href="index.html">Etusivu</a>
-  <a href="tilaaminen.html">Tilaaminen</a>
-  <!--<a href="valikoima.html">Valikoima</a>-->
-<a href="otayhteyttä.html">Ota yhteyttä</a>
-<a href="../english/feedback.html">In English</a>
-</nav>
-			<div class="row"> 
-
+        <h1>Palautelomake</h1>
     </header>
-    <div id="survey-container">
-        <h2>Palautekysely</h2>
+
+    <section class="feedback">
+        <h2>Anna palautetta</h2>
         <form>
             <label for="name">Nimi:</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name">
 
-            <label for="email">Sähköposti:</label>
-            <input type="email" id="email" name="email" required>
+            <label for="feedback">Palautteesi:</label>
+            <textarea id="feedback" name="feedback"></textarea>
 
-            <label for="feedback">Palaute:</label>
-            <textarea id="feedback" name="feedback" rows="4" required></textarea>
-
-            <button type="submit">Lähetä</button>
+            <button type="submit">Lähetä palautetta</button>
         </form>
-    </div>
+    </section>
+
+    <section class="contact">
+        <h2>Ota yhteyttä</h2>
+        <p>Minni Kautonen - minni.kautonen@edu.turkuamk.fi</p>
+        <p>Viivi Kalliolepo - viivi.kalliolepo@edu.turkuamk.fi</p>
+        <p>Meri Riihinen - meri.riihinen@edu.turkuamk.fi</p>
+        <p>Teemu Uusi-Eskola - teemu.uusi-eskola@edu.turkuamk</p>
+        <p>Eetu Törmänen - eetu.tormanen@edu.turkuamk.fi</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 HäviExpress</p>
+    </footer>
 </body>
 </html>
