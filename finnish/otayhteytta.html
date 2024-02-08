@@ -11,9 +11,9 @@
         <h1>Palautelomake</h1>
     </header>
 
-    <section class="feedback">
+    <section class="feedback" id="feedbackSection">
         <h2>Anna palautetta</h2>
-        <form>
+        <form id="feedbackForm" onsubmit="submitFeedback(event)">
             <label for="name">Nimi:</label>
             <input type="text" id="name" name="name">
 
@@ -22,19 +22,19 @@
 
             <button type="submit">Lähetä palautetta</button>
         </form>
+
+        <p id="thankYouMessage" style="display:none;">Kiitos palautteestasi!</p>
     </section>
 
     <section class="contact">
-        <h2>Ota yhteyttä</h2>
+        <h2>Yhteystiedot</h2>
         <p>Minni Kautonen - minni.kautonen@edu.turkuamk.fi</p>
         <p>Viivi Kalliolepo - viivi.kalliolepo@edu.turkuamk.fi</p>
         <p>Meri Riihinen - meri.riihinen@edu.turkuamk.fi</p>
-        <p>Teemu Uusi-Eskola - teemu.uusi-eskola@edu.turkuamk</p>
+        <p>Teemu Uusi-Eskola - teemu.uusi-eskola@edu.turkuamk.fi</p>
         <p>Eetu Törmänen - eetu.tormanen@edu.turkuamk.fi</p>
     </section>
 
-    <footer>
-        <p>&copy; 2024 HäviExpress</p>
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
