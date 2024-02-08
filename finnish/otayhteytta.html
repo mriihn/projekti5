@@ -24,38 +24,30 @@
 
     </header>
 
-
-    <section class="container">
-	    <div class="contact-from">
+ <section class="feedback" id="feedbackSection">
         <h2>Anna palautetta</h2>
         <form id="feedbackForm" onsubmit="submitFeedback(event)">
             <label for="name">Nimi:</label>
             <input type="text" id="name" name="name">
 
-	<label for="Sähköposti">Sähköposti:</label>
-            <input type="text" id="name" name="name">
-
             <label for="feedback">Palautteesi:</label>
             <textarea id="feedback" name="feedback"></textarea>
 
-            <button type="submit">Lähetä</button>
+            <button type="submit">Lähetä!</button>
         </form>
 
         <p id="thankYouMessage" style="display:none;">Kiitos palautteestasi!</p>
     </section>
 
-    <section class="Yhteystiedot">
-	    <ul>
-		    <li>
-	<p>Minni Kautonen - minni.kautonen@edu.turkuamk.fi</p>
+    <section class="contact">
+        <h2>Yhteystiedot</h2>
+        <p>Minni Kautonen - minni.kautonen@edu.turkuamk.fi</p>
         <p>Viivi Kalliolepo - viivi.kalliolepo@edu.turkuamk.fi</p>
         <p>Meri Riihinen - meri.riihinen@edu.turkuamk.fi</p>
         <p>Teemu Uusi-Eskola - teemu.uusi-eskola@edu.turkuamk.fi</p>
-        <p>Eetu Törmänen - eetu.tormanen@edu.turkuamk.fi</p>    
-		    </li>
-	    </ul>
+        <p>Eetu Törmänen - eetu.tormanen@edu.turkuamk.fi</p>
     </section>
-	    
+
     <script>
         function submitFeedback(event) {
             event.preventDefault();
@@ -63,6 +55,5 @@
             document.getElementById("thankYouMessage").style.display = "block";
         }
     </script>
-	    
 </body>
 </html>
