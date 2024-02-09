@@ -24,7 +24,7 @@ p {
     font-family: courier new;
     text-align: center;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 900px;
 }
 
 header {
@@ -66,8 +66,8 @@ h2 {
 }
 
 .row {
-    margin-bottom: 10%;
-    padding: 10%;
+    margin-bottom: 5%;
+    padding: 5%;
     
 }
 
