@@ -6,10 +6,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 5%;
+    margin: 0;
     height: 1000vh;
-    font-family: sans-serif;
-    text-align: center;
+  
   }
 p {
     color: #000000;
