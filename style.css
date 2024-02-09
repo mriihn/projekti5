@@ -71,6 +71,13 @@ h2 {
     
 }
 
+.banner {
+    margin-bottom: 5%;
+    padding: 5%;
+
+
+}   
+
 section ul li {
     list-style-type: none;
     padding: 0;
