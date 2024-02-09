@@ -1,6 +1,13 @@
 body {
-    background-color: #E0FCDC;
+    background-image: url(läpnäkyvä.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 5%;
+    height: 1000vh;
     font-family: sans-serif;
     text-align: center;
   }
