@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 1000vh;
-  }
+}
 
 p {
     color: #000000;
@@ -18,24 +18,23 @@ p {
     text-align: center;
 }
 
-    header {
-      background-color: #333;
-      color: #D0F9E4;
-      padding: 10px;
-      text-align: center;
-    }
+header {
+    background-color: #333;
+    color: #D0F9E4;
+    padding: 10px;
+    text-align: center;
+}
 
-    nav {
-      display: flex;
-      justify-content: space-around;
-      background-color: #DCDCDC;
-      padding: 10px 0;
-    }
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #DCDCDC;
+    padding: 10px 0;
+}
 
-    nav a {
-      color: #000000;
-      text-decoration: none;
-
+nav a {
+    color: #000000;
+    text-decoration: none;
 }
 
 h1 {
@@ -48,13 +47,14 @@ h1 {
     border-bottom: 1px solid #000000;
     margin-top: 30px;
 }
+
 h2 {
     color: #000000;
     font-size: 2em;
     font-family: courier new;
     text-align: center;
-    
 }
+
 .center-image {
     max-width: 10%;
     height: auto;
@@ -62,19 +62,20 @@ h2 {
     text-align: center;
 }
 
-section ul li{
+section ul li {
     list-style-type: none;
     padding: 0;
 }
 
-    h8 {
+h8 {
     color: #000000;
     font-size: 2em;
     font-family: courier new;
     text-align: center;
-
+}
 
 @media only screen and (max-width: 600px) {
     body {
         margin: 0; 
     }
+}
