@@ -40,12 +40,13 @@ nav {
 }
 
 nav a {
-    color: #000000;
+    color: #b0b0b0;
     text-decoration: none;
 }
 
 h1 {
-    color: #47DE80;
+    color: #AFE1AF;
+  /*  color: #47DE80; */
     font-size: 4em;
     text-align: center;
     font-family: serif;
