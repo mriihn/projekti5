@@ -1,4 +1,4 @@
-body {
+body { /*
     margin: 0;
     padding: 0;
     background-image: url("läpinäkyvä.png");
@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1000vh;
+    height: 1000vh; */
 }
 
 p {
