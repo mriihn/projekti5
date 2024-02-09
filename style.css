@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     background-image: url('läpnäkyvä.png');
     background-size: cover;
     background-position: center;
@@ -6,10 +8,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
     height: 1000vh;
-  
   }
+
 p {
     color: #000000;
     font-size: 2em;
