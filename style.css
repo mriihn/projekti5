@@ -3,6 +3,7 @@ body {
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
+    background-colour: #E2EEFD
     
     /*
     margin: 0;
@@ -27,7 +28,7 @@ p {
 }
 
 header {
-    background-color: #b0b0b0;
+    background-color: #808080;
     color: #D0F9E4;
     padding: 10px;
     text-align: center;
@@ -47,7 +48,7 @@ nav a {
 
 h1 {
  /* color: #AFE1AF; */
-    color: #47DE80;   
+    color: #2B5BC0;   
     font-size: 4em;
     text-align: center;
     font-family: serif;
