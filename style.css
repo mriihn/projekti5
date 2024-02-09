@@ -65,11 +65,10 @@ h2 {
     text-align: center;
 }
 
-.center-image {
-    max-width: 10%;
-    height: auto;
-    display: inline-block;
-    text-align: center;
+.row {
+    margin-bottom: 20%;
+    padding: 10%;
+    
 }
 
 section ul li {
