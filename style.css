@@ -28,7 +28,7 @@ p {
 }
 
 header {
-    background-color: #E1FAFF;
+    background-color: #5AE1E6;
     color: #D0F9E4;
     padding: 10px;
     text-align: center;
@@ -37,8 +37,8 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: #DCDCDC;
-    padding: 10px 0;
+    background-color: #00BE64;
+    padding: 5px 0;
 }
 
 nav a {
