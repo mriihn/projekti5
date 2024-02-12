@@ -36,22 +36,20 @@ header {
     text-align: center;
     height: 15vh;
     width: 100%;   
-    position: relative;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     background-color: #D8F2D3;
-    padding: 2% 0;
-    height: 5vh;
+    padding: 10px 0;
     width: 100%; 
     align-items: center;
 }
 
 nav a {
     color: #000000;
-    font-size: 2em;
+    font-size: 1em;
     text-decoration: none;
 }
 
@@ -88,7 +86,7 @@ h1 {
     font-weight: normal;
     text-transform: uppercase;
     border-bottom: 1px solid #1C408C;
-    margin-top: 2px;
+    margin-top: 20px;
 }
 
 h1 a {
@@ -124,7 +122,6 @@ h2 {
     height: auto;
     display: inline-block;
     text-align: center;
-    margin-top: -15px
 }
   
 
