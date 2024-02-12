@@ -3,13 +3,11 @@ body {
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-    position: relative;
-   /* background-color: #E2EEFD; */
+    background-colour: #E2EEFD;
     
     /*
-    
+    margin: 0;
+    padding: 0;
     background-image: url("läpinäkyvä.png");
     background-size: cover;
     background-position: center;
@@ -32,24 +30,20 @@ p {
 header {
     background-color: #E1FAFF;
     color: #D0F9E4;
-    padding: 5% 2%;
+    padding: 10px;
     text-align: center;
-    height: 15vh;
-    width: 100%;   
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     background-color: #D8F2D3;
-    padding: 10px 0;
-    width: 100%; 
+    padding: 5px 0;
     align-items: center;
 }
 
 nav a {
     color: #000000;
-    font-size: 1em;
     text-decoration: none;
 }
 
@@ -86,7 +80,7 @@ h1 {
     font-weight: normal;
     text-transform: uppercase;
     border-bottom: 1px solid #1C408C;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 h1 a {
@@ -114,7 +108,7 @@ h2 {
 
 .banner {
     margin-bottom: 5%;
-    padding: 5%
+    padding: 5%;
 }
     
 .center-image {
