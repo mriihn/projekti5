@@ -143,7 +143,7 @@ h4 {
     font-size: 1.3em;
     font-family: 'Courier New', monospace;
     text-align: center;
-    text-decoration: underline; /* Lisätty alleviivaus */
+    text-decoration: underline;
 }
 
 section {
@@ -177,7 +177,7 @@ div#kauppalista {
     color: #000000;
     padding: 10px;
     margin: 20px auto;
-    max-width: 250px; /* Leventää laatikoita entisestään */
+    max-width: 300px; 
     text-align: center;
 }
 
