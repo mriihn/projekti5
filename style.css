@@ -177,7 +177,7 @@ div#kauppalista {
     color: #000000;
     padding: 10px;
     margin: 20px auto;
-    max-width: 180px; /* Leventää laatikoita */
+    max-width: 250px; /* Leventää laatikoita entisestään */
     text-align: center;
 }
 
