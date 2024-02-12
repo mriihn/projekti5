@@ -140,14 +140,14 @@ h3 {
 
 h4 {
     color: #000000;
-    font-size: 1.5em; 
+    font-size: 1.5em;
     font-family: 'Courier New', monospace;
     text-align: center;
 }
 
 section {
     text-align: center;
-    position: relative; 
+    position: relative;
 }
 
 section::after {
@@ -156,9 +156,9 @@ section::after {
     top: 100%;
     left: 0;
     width: 100%;
-    height: 10px; 
-    background: rgba(29, 98, 255, 0.2); 
-    box-shadow: 0 0 20px rgba(29, 98, 255, 0.2); 
+    height: 10px;
+    background: rgba(29, 98, 255, 0.2);
+    box-shadow: 0 0 20px rgba(29, 98, 255, 0.2);
 }
 
 section ul {
@@ -172,16 +172,12 @@ section ul li {
 
 div#ravintolalista,
 div#kauppalista {
-    background-color: #FFFFFF; 
-    color: #000000; 
+    background-color: #FFFFFF;
+    color: #000000;
     padding: 10px;
     margin: 20px auto;
-    width: 150px; 
-    height: 150px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    max-width: 150px;
+    text-align: center; /* Lisätty tekstien keskitys */
 }
 
 @media only screen and (max-width: 600px) {
