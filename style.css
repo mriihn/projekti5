@@ -131,12 +131,15 @@ h8 {
     text-align: center;
 }
 
-section {
-    text-align: center; 
+h3 {
+    color: #1C408C;
+    font-size: 1.2em; /* Pienennetty fonttikokoa */
+    font-family: 'Courier New', monospace;
+    text-align: center;
 }
 
-section h2 {
-    color: #1C408C;
+section {
+    text-align: center;
 }
 
 section ul {
@@ -151,9 +154,9 @@ section ul li {
 div#ravintolalista,
 div#kauppalista {
     background-color: #FFFFFF;
-    padding: 20px;
+    padding: 10px;
     margin: 20px auto;
-    max-width: 900px;
+    max-width: 700px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
