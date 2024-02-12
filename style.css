@@ -172,10 +172,11 @@ section ul li {
 
 div#ravintolalista,
 div#kauppalista {
-    background-color: #FFFFFF;
-    padding: 15px; /* Lisätty sisäväliä */
+    background-color: #C1FFD7; /* Vaaleanvihreä väri */
+    color: #000000; /* Musta teksti */
+    padding: 10px;
     margin: 20px auto;
-    max-width: 300px; /* Pienennetty laatikon maksimileveyttä */
+    max-width: 150px; /* Pienennetty laatikon maksimileveyttä */
     transform: perspective(500px) rotateX(20deg); /* Lisätty 3D-efekti */
 }
 
