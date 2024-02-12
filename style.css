@@ -3,12 +3,11 @@ body {
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-colour: #E2EEFD;
-    
-    /*
     margin: 0;
     padding: 0;
-    background-image: url("läpinäkyvä.png");
+   /* background-color: #E2EEFD; */
+    
+ /* background-image: url("läpinäkyvä.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
