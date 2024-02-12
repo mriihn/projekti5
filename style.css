@@ -164,7 +164,19 @@ div#kauppalista {
     padding: 10px;
     margin: 20px auto;
     max-width: 500px; /* Pienennetty laatikon maksimileveyttä */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Lisätty position: relative; */
+}
+
+div#ravintolalista::after,
+div#kauppalista::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 10px; /* Korkeus ja väri voivat vaihdella tarpeesi mukaan */
+    background: rgba(0, 0, 0, 0.1); /* Heijastuksen väri ja läpinäkyvyys */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Heijastuksen varjo */
 }
 
 @media only screen and (max-width: 600px) {
