@@ -43,6 +43,8 @@ nav {
     background-color: #D8F2D3;
     padding: 2% 0;
     height: 5vh;
+    width: 100%; 
+    top: 15vh;
     align-items: center;
 }
 
@@ -85,7 +87,7 @@ h1 {
     font-weight: normal;
     text-transform: uppercase;
     border-bottom: 1px solid #1C408C;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 h1 a {
@@ -121,6 +123,7 @@ h2 {
     height: auto;
     display: inline-block;
     text-align: center;
+    margin-top: 5px
 }
   
 
