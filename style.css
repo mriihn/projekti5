@@ -172,7 +172,8 @@ section ul li {
 }
 
 div#ravintolalista,
-div#kauppalista {
+div#kauppalista,
+div#tilausohjeet {
     background-color: #DCF9D6;
     color: #000000;
     padding: 10px;
