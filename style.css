@@ -174,12 +174,13 @@ section ul li {
 
 div#ravintolalista,
 div#kauppalista,
-div#tilausohjeet {
+div#tilausohjeet,
+div#tiimi {
     background-color: #DCF9D6;
     color: #000000;
     padding: 10px;
     margin: 20px auto;
-    max-width: 400px; 
+    max-width: 500px; 
     text-align: center;
 }
 
