@@ -172,7 +172,7 @@ section ul li {
 
 div#ravintolalista,
 div#kauppalista {
-    background-color: #E2FFEB; 
+    background-color: #white; 
     color: #000000; 
     padding: 10px;
     margin: 20px auto;
@@ -182,7 +182,6 @@ div#kauppalista {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    transform: perspective(500px) rotateX(20deg); 
 }
 
 @media only screen and (max-width: 600px) {
