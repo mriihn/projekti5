@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
+    position: relative;
    /* background-color: #E2EEFD; */
     
     /*
@@ -35,6 +36,7 @@ header {
     text-align: center;
     height: 15vh;
     width: 100%;   
+    position: relative;
 }
 
 nav {
@@ -44,7 +46,6 @@ nav {
     padding: 2% 0;
     height: 5vh;
     width: 100%; 
-    top: 15vh;
     align-items: center;
 }
 
