@@ -51,10 +51,10 @@ h1 {
     color: #1C408C;   
     font-size: 4em;
     text-align: center;
-    font-family: serif;
+    font-family: 'Courier New', monospace;
     font-weight: normal;
     text-transform: uppercase;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #1C408C;
     margin-top: 30px;
 }
 
