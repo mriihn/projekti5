@@ -132,7 +132,7 @@ h8 {
 }
 
 section {
-    text-align: center; /* Keskitetään sisältö */
+    text-align: center; 
 }
 
 section h2 {
@@ -148,8 +148,8 @@ section ul li {
     margin-bottom: 10px;
 }
 
-section#ravintolalista,
-section#kauppalista {
+div#ravintolalista,
+div#kauppalista {
     background-color: #FFFFFF;
     padding: 20px;
     margin: 20px auto;
