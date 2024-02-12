@@ -169,6 +169,7 @@ section ul {
 
 section ul li {
     margin-bottom: 10px;
+    list-style-type: none;
 }
 
 div#ravintolalista,
