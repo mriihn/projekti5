@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../favicon.png" />
+    <link rel="shortcut icon" href="../pyöreälogo.png" />
+    <title>HäviExpress Feedback Survey</title>
+</head>
+<body>
+    <header>
+        <img src="../pyöreälogo.png" alt="HäviExpressLogo" class="center-image">
+        <h1><a href="index.html">HäviExpress</a></h1>
+        <div class="banner">
+            <h1>HäviExpress</h1>
+            <nav>
+                <a href="index.html">Front page</a>
+                <a href="ordering.html">How to order</a>
+                <a href="selections.html">Our selections</a>
+                <a href="feedback.html">Contact us</a>
+	            <a href="../finnish/otayhteytta.html">Suomeksi</a>
+                <div class="hamburger-menu">&#9776;</div>
+            </nav>
+		    <div class="row"> 
+			</div>
+        </div>
+    </header>
+    
+            <section class="feedback" id="feedbackSection">
+                <h2>Anna palautetta</h2>
+                <form id="feedbackForm" onsubmit="submitFeedback(event)">
+                    <label for="name">Nimi:</label>
+                    <input type="text" id="name" name="name">
+        
+                    <label for="feedback">Palautteesi:</label>
+                    <textarea id="feedback" name="feedback"></textarea>
+        
+                    <button type="submit">Lähetä!</button>
+                </form>
+        
+                <p id="thankYouMessage" style="display:none;">Kiitos palautteestasi!</p>
+            </section>
+    <section class="contact">
+        <h2>Contact information</h2>
+        <div id="team">
+            <h3>Minni Kautonen - minni.kautonen@edu.turkuamk.fi</h3>
+            <h3>Viivi Kalliolepo - viivi.kalliolepo@edu.turkuamk.fi</h3>
+            <h3>Meri Riihinen - meri.riihinen@edu.turkuamk.fi</h3>
+            <h3>Teemu Uusi-Eskola - teemu.uusieskola@edu.turkuamk.fi</h3>
+            <h3>Eetu Törmänen - eetu.tormanen@edu.turkuamk.fi</h3>
+        </div>
+    </section>
+    <script>
+        function submitFeedback(event) {
+            event.preventDefault();
+            document.getElementById("feedbackForm").style.display = "none";
+            document.getElementById("thankYouMessage").style.display = "block";
+        }
+    </script>
+    <p><a href="index.html">[Return to Front Page]</a></p>
+</body>
+</html>
