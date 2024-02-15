@@ -1,0 +1,21 @@
+<nav class="navigation">
+    <input type="checkbox" id="nav-toggle-label">
+    <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
+    <ul class="nav-menu">
+        <li><a href="#">etusivu</a></li>
+        <li><a href="#">otayhteytta</a></li>
+        <li><a href="#">tilaaminen</a></li>
+        <li><a href="#">valikoima</a></li>
+    </ul>
+</nav>
+
+<style>
+    .nav-menu {
+        display: none;
+    }
+
+    #nav-toggle:checked ~ .nav-menu {
+        display: block;
+    }
+
+</style>

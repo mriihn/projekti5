@@ -1,0 +1,195 @@
+body { 
+    background-image: url("läpinäkyvä.png");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+   /* background-color: #E2EEFD; */
+    
+ /* background-image: url("läpinäkyvä.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000vh; */
+}
+
+p {
+    color: #000000;
+    font-size: 2em;
+    font-family: courier new;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+header {
+    background-color: #E1FAFF;
+    color: #D0F9E4;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #D8F2D3;
+    padding: 5px 0;
+    align-items: center;
+}
+
+nav a {
+    color: #1C408C;
+    font-family: 'Courier New', monospace;
+    text-decoration: none;
+}
+
+nav a:hover {
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+nav a {
+    margin-bottom: 10px;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+}   
+    
+h1 {
+ /* color: #AFE1AF; */
+    color: #1C408C;   
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #1C408C;
+    margin-top: 30px;
+}
+
+h1 a {
+      color: inherit; 
+      text-decoration: none; 
+      transition: font-weight 0.3s;
+    }
+
+    h1 a:hover {
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+h2 {
+    color: #1C408C;
+    font-size: 2em;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 5%;
+    padding: 5%;
+    
+}
+
+.banner {
+    margin-bottom: 5%;
+    padding: 5%;
+}
+    
+.center-image {
+    max-width: 10%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+  
+
+section ul li {
+    list-style-type: none;
+    padding: 0;
+}
+
+h8 {
+    color: #000000;
+    font-size: 2em;
+    font-family: courier new;
+    text-align: center;
+}
+
+h3 {
+    color: #000000;
+    font-size: 1.2em;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+}
+
+h4 {
+    color: #000000;
+    font-size: 1.3em;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    text-decoration: underline;
+}
+
+section {
+    text-align: center;
+    position: relative;
+}
+
+section::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: rgba(29, 98, 255, 0.2);
+    box-shadow: 0 0 20px rgba(29, 98, 255, 0.2);
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+div#ravintolalista,
+div#kauppalista,
+div#tilausohjeet,
+div#tiimi,
+div#team,
+div#orderinfo,
+div#storeslist,
+div#restaurantslist {
+    background-color: #DCF9D6;
+    color: #000000;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 500px; 
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0; 
+    }
+}
