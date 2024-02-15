@@ -175,7 +175,11 @@ section ul li {
 div#ravintolalista,
 div#kauppalista,
 div#tilausohjeet,
-div#tiimi {
+div#tiimi,
+div#team,
+div#orderinfo,
+div#storeslist,
+div#restaurantslist {
     background-color: #DCF9D6;
     color: #000000;
     padding: 10px;
